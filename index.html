@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>project</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <section id="main">
+      <div class="links-icons">
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-linkedin"></i></a>
+        <a href="#"><i class="bi bi-whatsapp"></i></a>
+      </div><!-- end of links icons -->
+      <div class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="#">Anex tour</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item ">
+                <a class="nav-link" href="#main">Home<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#destinations">destinations</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  trips
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#news">cairo</a>
+                  <a class="dropdown-item" href="#news">Giza</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#news">Aswan</a>
+                  <a class="dropdown-item" href="#news">sharm</a>
+                </div>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-warning my-2 my-sm-0 " type="submit">Search</button>
+        </nav><!-- end of nav -->
+          <!-- Button to Open the Modal -->
+        <div class="modal-parent">
+          <button type="button" class="btn btn-outline-warning" data-toggle="modal" data-target="#myModal">
+            Sign up
+          </button>
+          <!-- The Modal -->
+          <div class="modal fade" id="myModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Modal Heading</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <form action="/action_page.php">
+                    <div class="form-group">
+                      <label for="email">Email address:</label>
+                      <input type="email" class="form-control" placeholder="Enter email" id="email">
+                    </div>
+                    <div class="form-group">
+                      <label for="pwd">Password:</label>
+                      <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+                    </div>
+                    <div class="form-group form-check">
+                      <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox"> Remember me
+                      </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>     
+        </div><!-- end of modal parent -->   
+          <!-- end of modal -->
+      </div><!-- end of header section -->
+          <div class="slider">
+            <div id="x" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#x" data-slide-to="0" class="active"></li>
+                <li data-target="#x" data-slide-to="1"></li>
+                <li data-target="#x" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="images/slider1.webp" alt="First slide">
+                  <div class="carousel-caption  d-block">
+                    <h2 class="text-warning">Visiting sphinx</h2>
+                    <p>it is important in Giza to visit the sphinx in Giza</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="images/slider2.webp"  alt="Second slide">
+                  <div class="carousel-caption">
+                    <h2 class="text-warning">diving in sharm</h2>
+                    <p>it is important in sharm to visit the seas in sharm</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="images/slider3.webp"  alt="Third slide">
+                  <div class="carousel-caption">
+                    <h2 class="text-warning">Visiting pyramids</h2>
+                    <p>it is important in Giza to visit the pyramids in Giza</p>
+                  </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#x" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#x" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div><!-- end of slider -->
+    </section><!-- end of main section -->
+    <!--/////////////////////////////// end of sec1//////////////////////////////////////// -->
+    <section id="welcome">
+      <div class="container">
+      <div class="sec-title pt-4">
+        <h1 class="text-center text-light col-12">welcome</h1>
+      </div><!-- end of sec title -->
+        <div class="welcome-content">
+            <p>are you willing or planning to visit rgypt ? we offer ultimate tour in egypt covering cairo,alex from one day trip to 10 days vacation we will take 
+              care of your needs 24/7
+            </p>
+            <button class="btn btn-info"> learn more </button>
+        </div><!-- end of welcome content -->
+        </div><!-- end of container -->
+    </section><!-- end of welcome section -->
+    <!--/////////////////////////////// end of sec2//////////////////////////////////////// -->
+    <section id="visit">
+      <div class="sec-title pt-4">
+        <h1 class="text-center text-light col-12">best distinations in egypt</h1>
+      </div><!-- end of sec title -->
+      <div class="container">
+        <div class="row visit-parent">
+      <p class="col-12">
+        <a class="btn btn-outline-light" data-toggle="collapse" href="#y" role="button" aria-expanded="false" aria-controls="y">
+          cairo
+        </a>
+      </p>
+      <div class="collapse" id="y">
+        <div class="card card-body">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus aliquam quod labore magni placeat eveniet!
+        </div><!-- end of body -->
+      </div><!-- end of collapse -->
+      <p class="col-12">
+        <a class="btn btn-outline-light" data-toggle="collapse" href="#z" role="button" aria-expanded="false" aria-controls="z">
+          Giza
+        </a>
+      </p>
+      <div class="collapse" id="z">
+        <div class="card card-body">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus aliquam quod labore magni placeat eveniet!
+        </div><!-- end of body -->
+      </div><!-- end of collapse -->
+      <p class="col-12">
+        <a class="btn btn-outline-light" data-toggle="collapse" href="#a" role="button" aria-expanded="false" aria-controls="a">
+          Sharm
+        </a>
+      </p>
+      <div class="collapse" id="a">
+        <div class="card card-body">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus aliquam quod labore magni placeat eveniet!
+        </div><!-- end of body -->
+      </div><!-- end of collapse -->
+    </div><!-- end of visit parent -->
+    </div><!-- end of container -->
+    </section><!-- end of sec2 -->
+    <!--/////////////////////////////// end of sec3//////////////////////////////////////// -->
+      <section id="translate">
+        <div class="sec-title pt-4">
+          <h1 class="text-center">Translate from arabic to eng</h1>
+        </div><!-- end of sec title -->
+        <div class="container">
+          <div class="translate-form-arabic p-4">
+              <p>write and translate form here</p>
+              <textarea class="form-control my-3" rows="5" placeholder="translate"></textarea>
+              <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    translate
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          text has been translated succisfully
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-primary">save</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- end of modal -->
+          </div><!-- end of translate form -->
+        </div><!-- end of container -->
+      </section><!-- end of translate section -->
+      <div class="container">       
+        <section id="imgscroll">
+        </section>
+      </div><!-- end of container -->
+    <!--/////////////////////////////// end of sec4//////////////////////////////////////// -->
+    <section id="destinations">
+      <div class="sec-title pt-4">
+        <h1 class="text-center text-light col-12">where to go in egypt</h1>
+      </div><!-- end of sec title -->
+      <div class="container">
+      <div class="destinations-parent row justify-content-between">
+        <div class="card" style="width: 18rem;">
+          <div class="card-overlay">
+          <img class="card-img-top" src="images/card-img1.webp" alt="Card image cap" height="300">
+          </div><!-- end of card overlay -->
+          <div class="card-body">
+            <h5 class="card-title">cairo tower</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, maiores.</p>
+            <a href="#" class="btn btn-primary">visit the site</a>
+          </div>
+        </div><!-- end of card -->
+        <div class="card" style="width: 18rem;">
+          <div class="card-overlay">
+            <img class="card-img-top" src="images/card-img2.webp" alt="Card image cap" height="300">
+            </div><!-- end of card overlay -->
+          <div class="card-body">
+            <h5 class="card-title">abu simpel</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, maiores.</p>
+            <a href="#" class="btn btn-primary">visit the site</a>
+          </div>
+        </div><!-- end of card -->
+        <div class="card" style="width: 18rem;">
+          <div class="card-overlay">
+            <img class="card-img-top" src="images/card-img3.webp" alt="Card image cap" height="300">
+            </div><!-- end of card overlay -->
+          <div class="card-body">
+            <h5 class="card-title">ibn towlon mousqie</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, maiores.</p>
+            <a href="#" class="btn btn-primary">visit the site</a>
+          </div>
+        </div><!-- end of card -->
+        <div class="card" style="width: 18rem;">
+          <div class="card-overlay">
+            <img class="card-img-top" src="images/card-img4.webp" alt="Card image cap" height="300">
+            </div><!-- end of card overlay -->
+          <div class="card-body">
+            <h5 class="card-title">horus temple</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, maiores.</p>
+            <a href="#" class="btn btn-primary">visit the site</a>
+          </div>
+        </div><!-- end of card -->
+        <div class="card" style="width: 18rem;">
+          <div class="card-overlay">
+            <img class="card-img-top" src="images/card-img5.webp" alt="Card image cap" height="300">
+            </div><!-- end of card overlay -->
+          <div class="card-body">
+            <h5 class="card-title">tour in the lake</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, maiores.</p>
+            <a href="#" class="btn btn-primary">visit the site</a>
+          </div>
+        </div><!-- end of card -->
+        <div class="card" style="width: 18rem;">
+          <div class="card-overlay">
+            <img class="card-img-top" src="images/card-img6.webp" alt="Card image cap" height="300">
+            </div><!-- end of card overlay -->
+          <div class="card-body">
+            <h5 class="card-title">m.ali mousqie</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, maiores.</p>
+            <a href="#" class="btn btn-primary">visit the site</a>
+          </div>
+        </div><!-- end of card -->
+      </div><!--parent -->
+      </div><!-- end of container -->
+    </section><!-- end of destinations -->
+    <section id="team">
+      <div class="sec-title pt-4">
+        <h1 class="text-center text-light col-12">Thanks for</h1>
+      </div><!-- end of sec title -->  
+    <div class="container">
+      <div class="team-parent row justify-content-around">
+          <div class="card card-team">
+            <div class="card-face">
+                <img src="images/team1.webp" alt="team1">
+            </div><!-- end of card face -->
+            <div class="card-back">
+              <h2>macllaren</h2>
+              <p>he is one of the best travellers</p>
+              <button class="btn btn-info">see more</button>
+            </div><!-- end of card back -->
+          </div><!-- end of card -->
+          <div class="card card-team">
+            <div class="card-face">
+                <img src="images/team2.webp" alt="team1" width="300" height="300">
+            </div><!-- end of card face -->
+            <div class="card-back card-back2">
+              <h2>john.dart</h2>
+              <p>he is one of the best travellers</p>
+              <button class="btn btn-info">see more</button>
+            </div><!-- end of card back -->
+          </div><!-- end of card -->
+          <div class="card card-team">
+            <div class="card-face">
+                <img src="images/team3.webp" alt="team1" width="300" height="300">
+            </div><!-- end of card face -->
+            <div class="card-back card-back2">
+              <h2>victor.leno</h2>
+              <p>he is one of the best travellers</p>
+              <button class="btn btn-info">see more</button>
+            </div><!-- end of card back -->
+          </div><!-- end of card -->
+      </div><!-- end of team parent-->
+    </div><!-- end of container -->
+    </section><!-- end of team section -->
+    <section id="news">
+      <div class="container">
+        <div class="sec-title">
+            <h1 class="text-center">latest news</h1>
+        </div><!-- end of sec title -->
+        <div class="row news-parent col-12">
+            <div class="news-item col-12">
+              <div class="news-item-img">
+                  <img src="images/news1.webp" alt="news img1" width="400" height="300">
+              </div><!-- end of news item img -->
+              <div class="news-item-content">
+                <h2>Pyramids Great festival</h2>
+                  <p>Lorem ipsum, dolor sit amet consectetur  Distinctio amet molestiae dolores cum voluptates corporis. Illum cumque aperiam voluptate!</p>
+                  <button class="btn btn-outline-info">learn more</button>
+                  <button class="btn btn-outline-warning">book a visit</button>
+              </div><!-- end of news item content -->
+            </div><!-- end of news item -->
+            <div class="news-item col-12">
+              <div class="news-item-img  ">
+                  <img src="images/news2.webp" alt="news img1" width="400" height="300">
+              </div><!-- end of news item img -->
+              <div class="news-item-content">
+                <h2>Al azhar festival</h2>
+                  <p>Lorem ipsum, dolor sit amet consectetur  Distinctio amet molestiae dolores cum voluptates corporis. Illum cumque aperiam voluptate!</p>
+                  <button class="btn btn-outline-info">learn more</button>
+                  <button class="btn btn-outline-warning">book a visit</button>
+              </div><!-- end of news item content -->
+            </div><!-- end of news item -->
+            <div class="news-item col-12">
+              <div class="news-item-img  ">
+                  <img src="images/news3.webp" alt="news img1" width="400" height="300">
+              </div><!-- end of news item img -->
+              <div class="news-item-content">
+                <h2> sharm festival</h2>
+                  <p>Lorem ipsum, dolor sit amet consectetur  Distinctio amet molestiae dolores cum voluptates corporis. Illum cumque aperiam voluptate!</p>
+                  <button class="btn btn-outline-info">learn more</button>
+                  <button class="btn btn-outline-warning">book a visit</button>
+              </div><!-- end of news item content -->
+            </div><!-- end of news item -->
+            <div class="news-item col-12">
+              <div class="news-item-img ">
+                  <img src="images/news4.webp" alt="news img1" width="400" height="300">
+              </div><!-- end of news item img -->
+              <div class="news-item-content">
+                <h2>ibn tolun mousqie festival</h2>
+                  <p>Lorem ipsum, dolor sit amet consectetur  Distinctio amet molestiae dolores cum voluptates corporis. Illum cumque aperiam voluptate!</p>
+                  <button class="btn btn-outline-info">learn more</button>
+                  <button class="btn btn-outline-warning">book a visit</button>
+              </div><!-- end of news item content -->
+            </div><!-- end of news item -->
+        </div><!-- end of news parent -->
+      </div><!-- end of container -->
+    </section><!-- end of news -->
+    <section id="contact">
+      <div class="container">
+        <div class="sec-title">
+            <h1 class="text-center"> contact us</h1>
+            <div class="row contact-parent col-12">
+              <div class="contact-form">
+                  <h2>follow now</h2>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><p>go to link</p></a>
+              </div><!-- end of contact form -->
+              <div class="contact-form">
+                <h2>follow now</h2>
+                <a href="#"><i class="bi bi-whatsapp"></i></a>
+                <a href="#"><p>go to link</p></a>
+            </div><!-- end of contact form -->
+            <div class="contact-form">
+              <h2>follow now</h2>
+              <a href="#"><i class="bi bi-linkedin"></i></a>
+              <a href="#"><p>go to link</p></a>
+          </div><!-- end of contact form -->
+          <div class="contact-form">
+            <h2>follow now</h2>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><p>go to link</p></a>
+        </div><!-- end of contact form -->
+            </div><!-- end of contact parent -->
+        </div><!-- end of sec-title -->
+      </div><!-- end of container -->
+    </section><!-- end contact us -->
+    <footer class="text-white text-center text-lg-start">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase">about us</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+              molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
+              voluptatem veniam, est atque cumque eum delectus sint!
+            </p>
+          </div>
+          <!--Grid column-->
+    
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">COMPANY</h5>
+    
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">business</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Franchise</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Partnership</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Network</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+    
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-0">Contact us</h5>
+    
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!" class="text-white">Privacy policy</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Terms & conditions</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Blog</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Security</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- Grid container -->
+      <!-- Copyright -->
+      <div class="text-center p-2" style="background-color: rgba(0, 0, 0, 0.2);">
+        <p>Copy Rights © Reserved By Hadi alaa</p>
+      </div>
+      <!-- Copyright -->
+    </footer>
+  <script src="js/popper.min.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
+
